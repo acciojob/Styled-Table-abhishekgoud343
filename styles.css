@@ -1,1 +1,19 @@
 /* your code */
+table, td, th {
+	border : 1px solid;
+	border-collapse : collapse;
+	border-color : black;
+}
+table, td {
+	background : rgba(255, 224, 32, 0.6);
+	text-align : center;
+}
+th {
+	background : blue;
+	color : white;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+.odd {
+	background : rgba(255, 0, 0, 0.6);
+}
